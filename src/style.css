@@ -981,6 +981,17 @@ width:34%;
 
 }
 
+.grad{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    bottom: 0px;
+
+}
+.light-card:hover .grad{
+    background: linear-gradient(30deg, rgba(233,162,51,1) 0%, rgba(233,162,51,0) 53%);
+}
 .img-botom-body{
     background-color: white;
     
